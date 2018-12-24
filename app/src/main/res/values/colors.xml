@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_abcd_bg">#6200EE</color>
+    <color name="color_animal_bg">#3700B3</color>
+    <color name="color_birds_bg">#6200EE</color>
+    <color name="color_fruits_bg">#3700B3</color>
+    <color name="color_vegetables_bg">#6200CE</color>
+    <color name="color_vehicles_bg">#3700B3</color>
+</resources>

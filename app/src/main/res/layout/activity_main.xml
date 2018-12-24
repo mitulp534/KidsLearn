@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/abcd"
+        android:text="@string/abcd"
+        style="@style/CategoryStyle"
+        android:background="@color/color_abcd_bg"
+
+        />
+    <TextView
+        android:id="@+id/animals"
+        android:text="@string/animals"
+        style="@style/CategoryStyle"
+        android:background="@color/color_animal_bg"
+        />
+    <TextView
+        android:id="@+id/birds"
+        android:text="@string/birds"
+        style="@style/CategoryStyle"
+        android:background="@color/color_birds_bg"
+        />
+    <TextView
+        android:id="@+id/fruits"
+        android:text="@string/fruits"
+        style="@style/CategoryStyle"
+        android:background="@color/color_fruits_bg"
+        />
+    <TextView
+        android:id="@+id/vegetables"
+        android:text="@string/vegetables"
+        style="@style/CategoryStyle"
+        android:background="@color/color_vegetables_bg"
+        />
+    <TextView
+        android:id="@+id/vehicles"
+        android:text="@string/vehicles"
+        style="@style/CategoryStyle"
+        android:background="@color/color_vehicles_bg"
+        />
+
+
+
+</LinearLayout>

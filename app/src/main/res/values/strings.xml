@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KidsLearn</string>
+    <string name="abcd">ABCD</string>
+    <string name="animals">Animals</string>
+    <string name="birds">Birds</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="vehicles">Vehicles</string>
+</resources>
