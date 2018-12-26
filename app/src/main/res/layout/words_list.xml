@@ -9,6 +9,6 @@
     android:orientation="vertical"
     android:id="@+id/abcdRootView"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.hp.com.kidslearn.AbcdActivity">
+    >
 
 </ListView>
