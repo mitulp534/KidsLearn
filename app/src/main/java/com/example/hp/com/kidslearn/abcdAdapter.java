@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -33,6 +34,9 @@ public class abcdAdapter extends ArrayAdapter<abcd_main> {
 
         TextView prounanceTextView = (TextView)listItemView.findViewById(R.id.abcd_prounance_view);
         prounanceTextView.setText(currentAlphabet.getNamedAlphabet());
+
+        ImageView imageView = (ImageView)listItemView.findViewById(R.id.image);
+        imageView.setImageResource(currentAlphabet.getImageResourceID());
         return listItemView;
     }
 }

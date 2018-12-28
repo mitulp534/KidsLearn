@@ -16,7 +16,7 @@ public class BirdsActivity extends AppCompatActivity {
 
         //create an arraylist of alphabets
         ArrayList<abcd_main> alphabet = new ArrayList<abcd_main>();
-        alphabet.add(new abcd_main("Parrot","Parrot Ccan speak like us"));
+        alphabet.add(new abcd_main("Parrot","Parrot can speak like us"));
         alphabet.add(new abcd_main("Owl","owl can see at night"));
         alphabet.add(new abcd_main("Penguin","penguin stays in very cold areas"));
         alphabet.add(new abcd_main("Dove","dove has beautiful colour on neck"));
