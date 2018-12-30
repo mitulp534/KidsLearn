@@ -3,7 +3,8 @@ package com.example.hp.com.kidslearn;
 public class abcd_main {
     private String DefaultAlphabet;//a
     private String NamedAlphabet;//apple
-    private int ImageResourceID;
+    private int ImageResourceID=NO_IMAGE_PROVIDED;
+    private static final int NO_IMAGE_PROVIDED=-1;
 
 
     public abcd_main(String defaultAlphabet, String namedAlphabet) {
@@ -28,6 +29,12 @@ public class abcd_main {
     public int getImageResourceID() {
         return ImageResourceID;
     }
+
+    public boolean hasImage(){
+        return ImageResourceID != NO_IMAGE_PROVIDED;
+    }
+
+
 }
 
 

@@ -36,7 +36,13 @@ public class abcdAdapter extends ArrayAdapter<abcd_main> {
         prounanceTextView.setText(currentAlphabet.getNamedAlphabet());
 
         ImageView imageView = (ImageView)listItemView.findViewById(R.id.image);
-        imageView.setImageResource(currentAlphabet.getImageResourceID());
+        if(currentAlphabet.hasImage()) {
+            imageView.setImageResource(currentAlphabet.getImageResourceID());
+            imageView.setVisibility(View.VISIBLE);
+
+        }else {
+            imageView.setVisibility(View.GONE);
+        }
         return listItemView;
     }
 }
